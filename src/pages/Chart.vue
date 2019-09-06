@@ -29,7 +29,7 @@
                         <span class="orange">1000</span> 门诊数
                     </div>
                 </div>
-                <div class="privince-list-wrap">
+                <div class="privince-list-wrap" :style="{height: outHeight * 0.32 + 'px'}">
                     <div v-for="(item, index) in privinceDataList" :key="index" class="privince-item">
                         <div class="privince-name">{{item.name}}</div>
                         <div class="progress-wrap">
@@ -48,7 +48,7 @@
                     {{item}}
                 </div>
             </div>
-            <div id="mapchart" :style="{width: mapwidth + 'px', height: mapwidth + 'px'}"></div>
+            <div id="mapchart" :style="{width: mapwidth + 'px', height: mapwidth * 0.8 + 'px'}"></div>
         </div>
         <div class="chart-right-wrap">
             <container class="left-top-cont-wrap" title="用 户 服 务">
@@ -69,10 +69,10 @@
             </container>
             <container class="bottom-cont-wrap" title="IOT 状 态">
                 <div class="bin-chart-cont">
-                    <div id="piechart" :style="{width: mapwidth/2*0.9 + 'px', height: mapheight/2*0.9 + 'px'}"></div>
+                    <div id="piechart" :style="{width: mapwidth/2*0.9 + 'px', height: mapheight/2*0.9 < 200 ? 190 + 'px' : mapheight/2*0.9 + 'px'}"></div>
                 </div>
                 <div class="bar-chart-cont">
-                    <div id="barchart" :style="{width: mapwidth/2*0.9 + 'px', height: mapheight/2*0.9 + 'px'}"></div>
+                    <div id="barchart" :style="{width: mapwidth/2*0.9 + 'px', height: mapheight/2*0.9 < 200 ? 190 + 'px' : mapheight/2*0.9 + 'px'}"></div>
                 </div>
             </container>
         </div>
@@ -92,11 +92,8 @@ export default {
         return {
             mapheight: window.innerHeight / 2,
             mapwidth: window.innerWidth / 2,
+            outHeight: window.outerHeight,
             resdata: chartdata,
-            pieStyle: {
-                width: window.innerWidth / 4,
-                height: window.mapheight / 2
-            },
             privinceDataList: []
         }
     },
@@ -158,9 +155,9 @@ export default {
 <style lang="less" scoped>
     .chart-wrap {
         width: 100vw;
-        height: 100vh;
-        overflow: hidden;
+        min-height: 100vh;
         background: url(../assets/bg.png) top left no-repeat;
+        background-size: 100% 100%;
         display: flex;
         .chart-left-wrap {
             width: 25%;
@@ -195,6 +192,7 @@ export default {
         }
         .left-top-cont-wrap {
             height: 28vh;
+            min-height: 260px;
             margin-top: 116px;
         }
         .left-top-cont {
@@ -219,6 +217,7 @@ export default {
         .bottom-cont-wrap {
             height: 50vh;
             margin-top: 50px;
+            min-height: 470px;
             .top-count {
                 display: flex;
                 color: #fff;
@@ -240,7 +239,6 @@ export default {
                 }
             }
             .privince-list-wrap {
-                height: 35vh;
                 overflow: auto;
                 padding: 0 15px 15px;
                 margin-top: 15px;

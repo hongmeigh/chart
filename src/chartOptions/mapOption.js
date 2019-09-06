@@ -31,8 +31,6 @@ function mapOptionFun(data) {
             map: 'china',
             roam: false,
             top: 30,
-            right: 30,
-            left: 30,
             itemStyle: {
                 shadowColor: '#3b4393',
                 shadowOffsetX: 6,
@@ -58,8 +56,6 @@ function mapOptionFun(data) {
                 mapType: 'china',   
                 roam: false,
                 top: 30,
-                right: 30,
-                left: 30,
                 label: {
                     show: true,
                     color: '#0b318f',
