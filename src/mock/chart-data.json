@@ -1,0 +1,364 @@
+{
+    "cityCount": 31,
+    "totalContacts": 43389,
+    "coverContacts": 307,
+    "IOTAmounts": 10766,
+    "serviceAmount": 1368499,
+    "vaccineUsage": 192586,
+    "stockAmount": 83682,
+    "grandTotalCount": 526168,
+    "IOTDetail": {
+        "normal": 36,
+        "upTemperature": 100,
+        "lowTemplature": 99,
+        "repire": 66,
+        "stop": 16
+    },
+    "cityContactsDetail": {
+        "totalImplemented": 171,
+        "totalImplementing": 136,
+        "citysDetailList": [
+            {
+                    "name": "安徽", 
+                    "implemented": 166, 
+                    "implementing": 100, 
+                    "willImplement": 100, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "北京", 
+                    "implemented": 200, 
+                    "implementing": 0, 
+                    "willImplement": 100, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "重庆", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "福建", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "甘肃", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "广东", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "广西", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "贵州", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "海南", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "河北", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "河南", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "黑龙江", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "湖北", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "湖南", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "吉林", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "江苏", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "江西", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "辽宁", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "内蒙古", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "宁夏", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "青海", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "山东", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "山西", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "陕西", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "上海", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "四川", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "天津", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "西藏", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "新疆", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "云南", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "浙江", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "香港", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "澳门", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }, 
+            {
+                    "name": "台湾", 
+                    "implemented": 34, 
+                    "implementing": 0, 
+                    "willImplement": 6, 
+                    "vaccinationClinic": 326, 
+                    "vaccinationAmount": 1368499, 
+                    "vaccineUsage": 192586, 
+                    "vaccineStockAmount": 83682
+            }
+    ]
+    
+    }
+}
