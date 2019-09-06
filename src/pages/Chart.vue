@@ -33,8 +33,12 @@
                     <div v-for="(item, index) in privinceDataList" :key="index" class="privince-item">
                         <div class="privince-name">{{item.name}}</div>
                         <div class="progress-wrap">
-                            <div class="progress-ed" :style="{width: item.percent1 * 100 + '%'}"></div>
-                            <div class="progress-will" :style="{width: item.percent2 * 100 + '%'}"></div>
+                            <el-tooltip class="tip-item" effect="light" :content="item.implemented + ''" placement="top">
+                                <div class="progress-ed" :style="{width: item.percent1 * 100 + '%'}"></div>
+                            </el-tooltip>
+                            <el-tooltip class="tip-item" effect="light" :content="item.willImplement + ''" placement="top">
+                                <div class="progress-will" :style="{width: item.percent2 * 100 + '%'}"></div>
+                            </el-tooltip>
                         </div>
                         <div class="total-count">{{item.vaccinationClinic}}</div>
                     </div>
@@ -48,7 +52,8 @@
                     {{item}}
                 </div>
             </div>
-            <div id="mapchart" :style="{width: mapwidth + 'px', height: mapwidth * 0.8 + 'px'}"></div>
+            <div id="mapchart" :style="{width: mapwidth + 'px', height: mapwidth * 0.7 + 'px'}"></div>
+            <img src="../assets/company.jpg" class="company-pic" alt="">
         </div>
         <div class="chart-right-wrap">
             <container class="left-top-cont-wrap" title="用 户 服 务">
@@ -152,20 +157,22 @@ export default {
     }
 }
 </script>
-<style lang="less" scoped>
+<style lang="less">
     .chart-wrap {
         width: 100vw;
-        min-height: 100vh;
+        overflow-x: hidden;
+        height: 100vh;
         background: url(../assets/bg.png) top left no-repeat;
         background-size: 100% 100%;
         display: flex;
         .chart-left-wrap {
             width: 25%;
-            height: 100%;
+            min-height: 100vh;
         }
         .chart-center-wrap {
             width: 50%;
-            height: 100%;
+            min-height: 100vh;
+            position: relative;
             .top-count {
                 padding-top: 150px;
                 margin-bottom: 0;
@@ -188,7 +195,7 @@ export default {
         }
         .chart-right-wrap {
             width: 25%;
-            height: 100%;
+            min-height: 100vh;
         }
         .left-top-cont-wrap {
             height: 28vh;
@@ -240,8 +247,8 @@ export default {
             }
             .privince-list-wrap {
                 overflow: auto;
-                padding: 0 15px 15px;
-                margin-top: 15px;
+                //padding: 0 15px 15px;
+                margin: 15px;
             }
             .privince-item {
                 overflow: hidden;
@@ -283,6 +290,31 @@ export default {
                 opacity: 0.6;
                 margin-top: 2px;
             }
+        }
+        .tip-item {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        ::-webkit-scrollbar {
+            width: 14px;
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 3px #fff;
+        }
+        ::-webkit-scrollbar-button {
+            display: none;
+        }
+        ::-webkit-scrollbar-track {
+            border-radius:10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background:#63ae2f;
+        }
+        .company-pic {
+            width: 65%;
+            height: auto;
+            margin-left: 16%;
+            margin-top: 10px;
         }
     }
 </style>
